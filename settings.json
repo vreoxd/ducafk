@@ -1,0 +1,112 @@
+{
+  "server": {
+    "ip": "play.knightnw.com:25565",
+    "version": "1.16.5"
+  },
+
+  "bot-accounts": [
+    {
+      "username": "ArkynRS_AFK",
+      "password": "313131",
+      "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK2",
+      "password": "313131",
+      "type": "offline"
+    }
+  ],
+
+  "position": {
+    "enabled": false,
+    "x": 279,
+    "y": 101,
+    "z": -242
+  },
+
+  "guard": {
+    "enabled": false,
+    "position": {
+      "x": 292,
+      "y": 85,
+      "z": -222
+    }
+  },
+
+  "pvp": {
+    "auto-totem":{
+      "enabled": false
+    },
+    "auto-armor": false
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "313131"
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false,
+      "jump": false,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 500,
+        "attack-mobs": false
+      },
+
+      "walk": {
+        "enabled": false,
+        "mode": {
+          "random":{
+            "time": 1000
+          },
+          "circle":{
+            "radius": 5
+          },
+          "square":{
+            "radius": 5
+          },
+          "rhombus":{
+            "radius": 5
+          }},
+        "selected": "random"
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 20,
+      "messages": [
+        "/survival"
+      ]
+    },
+
+    "respawn-chat": {
+      "enabled": false,
+      "delay": 1000,
+      "chat": ["Respawn", "text", "..."]
+    },
+
+    "auto-eat": {
+      "enabled": false,
+      "eat-at": 16,
+      "no-eat": ["golden_apple", "enchanted_golden_apple"]
+    },
+
+    "webinv": {
+      "enabled": false,
+      "port": 4001
+    },
+
+    "auto-sleep": false,  
+    "mes-log": false,
+    "console-chat": true,
+    "auto-reconnect": false,
+    "auto-reconnect-delay": 5000
+  }
+}
