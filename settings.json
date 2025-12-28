@@ -106,7 +106,8 @@
     "auto-sleep": false,  
     "mes-log": false,
     "console-chat": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
+
