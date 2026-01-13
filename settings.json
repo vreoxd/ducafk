@@ -14,6 +14,31 @@
       "username": "ArkynRS_AFK2",
       "password": "313131",
       "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK3",
+      "password": "313131",
+      "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK4",
+      "password": "313131",
+      "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK5",
+      "password": "313131",
+      "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK6",
+      "password": "313131",
+      "type": "offline"
+    },
+    {
+      "username": "ArkynRS_AFK7",
+      "password": "313131",
+      "type": "offline"
     }
   ],
 
@@ -110,4 +135,5 @@
     "auto-reconnect-delay": 5000
   }
 }
+
 
